@@ -42,7 +42,7 @@ const heroSketch = (p) => {
     cnv.id('hero-canvas');
     cnv.parent('hero');
 
-    // Garante que o canvas fique atrás do conteúdo
+  
     const canvasEl = document.getElementById('hero-canvas');
     canvasEl.style.position = 'absolute';
     canvasEl.style.top = '0';
